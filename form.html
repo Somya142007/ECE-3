@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=",/response.html"target="-blank"name="biodata"method="get">
+
+        <fieldset>
+            <legend>Biodata</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder=" Enter Your Name"required>
+            <br><br>
+            <label for="dob">DOB:</label>
+            <input type="date"id="dob"name="dob"required>
+            <br><br>
+            <label for="attempt">Attempt:</label>
+            <input type="number"id="attempt"name="attempt" min="1" max="10"required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email"id="email"name="email" placeholder=" Enter Your Email"required>
+            <br><br>
+            <label for="tel">Phone:</label>
+            <input type="tel"id="tel"name="tel" placeholder=" Enter Your Phone Number"required>
+            <br><br>
+            <label for="add"> Address:</label>
+            <textarea id="add"name="add"rows="4"cols="50"placeholder=" Enter Your Address"required></textarea>
+
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio"id="male"name="gender"value="male" required>
+            <label for="male">Male</label>
+            <input type="radio"id=" female"name="gender"value="female" required>       
+            <label for="female">Female</label>      
+            <br><br>
+
+            <label for="check">Vehicle you have:</label>
+            <input type="checkbox"id="bike"name="vehicle 1"value="Bike">
+            <label type="checkbox"for="bike">Bike</label>
+            <input type="checkbox"id="car"name="vehicle 2"value="Car">            
+            <label type="checkbox"for="car">Car</label>
+            <input type="checkbox"id="cycle"name="vehicle 3"value="Cycle">            
+            <label type="checkbox"for="cycle">Cycle</label>
+            <br><br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass"name="pass" placeholder=" Enter Your Password"required>
+            <br><br>
+            <label for="cpass">Confirm Password:</label>
+            <input type="password" id="cpass"name="cpass" placeholder=" Confirm Your Password"required>
+            <br><br>
+
+            <label type="select">Select your programming language:</label>
+
+        
+    
+
+        <select name="select" id="select">
+          <option>Select your option</option>
+          <optgroup label="Programming languages">
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="Java">Java</option>
+          </optgroup>
+          <optgroup label="frontend Technologies">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Java Script">Java Script</option>
+          </optgroup>
+        </select>
+        <br /><br />
+        <label for="file">File Upload</label>
+        <input type="file" id="file" name="file" required />
+        <br /><br />
+
+        <label for="Appoint">Appointment</label>
+        <input type="time" id="Appoint" name="Appoint" required />
+        <br><br>
+
+        <input type="submit" >
+        <input type="reset">
+      </fieldset>
+    </form>
+
+                
+        </fieldset>
+
+
+
+
+        </form> 
+</body>
+</html>
