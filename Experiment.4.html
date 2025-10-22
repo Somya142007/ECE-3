@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./response.html" target="_blank" name="Hotel Room Booking" method="get">
+
+
+        <fieldset>
+            <legend>Hotel Room Booking</legend>
+
+            <label for="name"> Full Name:</label>
+            <input type="text" id="name" name="name" placeholder=" Enter Your Name
+" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder=" Enter Your Email" required>
+            <br><br>
+            <label for="tel">Phone:</label>
+            <input type="tel" id="tel" name="tel" placeholder=" Enter Your Phone Number" required>
+            <br><br>    
+            <label for="checkin">Check-In Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+            <br><br>
+            <label for="checkout">Check-Out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+            <br><br>
+            <label for="roomtype">Room Type:</label>
+            <select id="roomtype" name="roomtype" required> 
+                <option value="">--Select Room Type--</option>
+                <option value="single">Single Room</option>
+                <option value="double">Double Room</option>
+                <option value="suite">Suite</option>
+            </select>
+            <br><br>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" max="10" required>
+            <br><br>
+            <label for="requests">Special Requests:</label>
+            <textarea id="requests" name="requests" rows="4" cols="50" placeholder=" Enter any special requests"></textarea>
+            <br><br>
+            <input type="submit" value="Book Now">
+            <input type="reset" value="Reset">  
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
